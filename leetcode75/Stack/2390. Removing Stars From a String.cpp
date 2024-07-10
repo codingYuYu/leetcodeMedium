@@ -41,6 +41,11 @@ time complexity: O(N)
 
 space complexity: O(N)
 
+使用stack檢查字串
+如果遇到 * 則pop最上面的element
+否則就push進stack
+在將stack中的element放進字串
+由於是從最後面開始拿取必須進行reverse才能得到題目要求
 */
 class Solution {
 public:
